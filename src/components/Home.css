@@ -1,0 +1,41 @@
+
+
+.image {
+ width: 300px; 
+ height: 230px;
+ border-radius: 10px;
+ object-fit: cover;
+ 
+}
+.picture{
+ border-radius: 10px;
+ width:250px;
+ height: 230px;
+
+}
+
+.text {
+  text-align: center;
+ text-align: left;
+}
+.homepage {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.slide {
+ flex: 0 0 calc(25% - 10px); 
+ box-sizing: border-box; 
+ margin: 10px; 
+ text-align: center;
+ position: relative;
+}
+.footer{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ gap: 15px;
+ margin-left: 5%;
+ margin: 10px 0 0 0 ; 
+ border-top: 2px solid #ccc;
+}

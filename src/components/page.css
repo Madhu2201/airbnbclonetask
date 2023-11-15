@@ -1,0 +1,19 @@
+.imagegrid{
+ display: grid;
+ grid-template-columns: auto auto;
+ padding: 20px;
+ width: 100%;
+
+}
+.imagegrid1{
+ width: 90%;
+ height: 90%;
+ margin-left: 10%;
+ padding-right: 5%;
+}
+.text1{
+ margin-left: 3%;
+}
+#para{
+ text-align: justify;
+}

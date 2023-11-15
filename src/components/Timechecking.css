@@ -1,0 +1,51 @@
+.table {
+ border-collapse: collapse;
+ width: 70%;
+ height: 100px;
+ margin-top: 20px;
+margin-left: 15%;
+
+}
+
+ th, td {
+ border: 1px solid pink;
+border-radius: 20px;
+
+ padding: 8px;
+ text-align: center;
+ height: 50px;
+}
+
+ th {
+ background-color: pink;
+
+}
+
+ p {
+ margin: 10px 0;
+ 
+}
+.dateborder{
+ outline: none; 
+  border: none;
+ width: 100%;
+ font-size: large;
+ text-align: center;
+}
+.continuebutton{
+ width: 50%;
+ height: 50px;
+ border-radius: 10px;
+ background-color: rgb(221, 96, 117);
+ border: 2px rgb(221, 96, 117);
+}
+.icontext{
+ display: grid;
+ grid-template-columns: auto auto;
+ margin-top: 5%;
+ gap: 20px;
+}
+.tableborder{
+ border-bottom: 2px solid gray;
+ padding: 50px;
+}
